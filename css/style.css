@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body {
+	color: #c95757;
+	line-height: 1;
+	font-family: "Lobster" sans-serif;
+}
+.h1{
+	color:#d32121;
+	font-family: "Lobster";
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 3px 3px 3px hsl(0, 34%, 53%)
+}
+.li {
+	color: #ca1b1b;
+	text-transform: capitalize;
+	line-height: 2;
+	font-family: "Comfortaa";
+}
+.textmain p {
+	color: #410a0a;
+	font-size: 25px;
+	font-family: "Lobster";
+}
+.h2{
+	color: #f11616;
+	text-align: center;
+	font-family: "Lobster";
+	font-size: 25px;
+	text-decoration: underline;
+}
+.p1 p{
+	color: #dd7c7c;
+	font-size: large;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: lowercase;
+}
+.p2 p{
+	color: #614141;
+	font-size: 25px;
+	word-spacing:5px ;
+	text-decoration: line-through;
+}
+.p3 p{
+	color:#ec8484;
+	font-family:"Pacifico";
+	font-size: 45px;
+	text-shadow: 2px 3px 5px black;
+}
+.p4 p{
+	color:#da2626;
+	font-family: "Comfortaa";
+	font-size: 20px;
+}
+.p5 p{
+	color: #f584c6;
+	font-size: 20px;
+	word-spacing: 15;
+	text-decoration:underline;
+	line-height: 2;
+}
+.h3{
+	text-align: center;
+	color: #3f0f0f;
+	font-size:45px;
+	font-family: "Lobster";
+
+}
+.ul2 li{
+	font-family: "Lobster";
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+}
+.footer p{
+	color: #e21e1e;
+	font-family:"lobster";
+	letter-spacing: 20px;
+	text-align: right;
+	text-decoration: overline;
+}
+
+
+
